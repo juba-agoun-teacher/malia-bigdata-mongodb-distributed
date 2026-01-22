@@ -1,4 +1,4 @@
-# TP MongoDB: prise en main et pipeline d'agrégation
+# TP MongoDB: prise en main, pipeline d'agrégation et distribution
 
 L'objectif de ce TP est de mettre en pratique le requêtage via une algèbre en
 utilisant MongoDB.
@@ -11,17 +11,20 @@ opérateurs d'aggrégation.
 Dans la **troisième partie** on combinera les opérations
 d'aggrégation dans des _pipelines_ plus complexes.
 
+**Nous allons dans un certain moment considérer un environnement distribué et tester sa résilience.**
+
 > Pensez à rédiger un compte-rendu au format Markdown dans lequel vous
 > indiquerez vos remarques ainsi que les différentes requêtes que vous aurez
 > exécuté.
 
 ## 1. Connexion
-L'architecture de MongoDB qu'on va utiliser dans ce TP peu  
+L'architecture de MongoDB qu'on va utiliser dans ce début de TP suit cette architecture :  
 
 <!-- ![archi](mongo_archi.png)(https://moodle.univ-lyon2.fr/pluginfile.php/468564/mod_folder/content/0/mongo_archi.png?forcedownload=1) -->
 
 ![archi](./img/archi_moodle.png )
 
+Partie à faire en local, donc sur machine.
 
 Tout d'abord! installer le serveur de base de données MongoDB depuis leur [site web](https://www.mongodb.com/try/download/community) 
 
