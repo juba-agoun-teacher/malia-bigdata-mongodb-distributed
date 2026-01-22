@@ -91,7 +91,7 @@ mongodb://mif04:remplacez-moi@bd-pedago.univ-lyon1.fr:27017/mif04?authSource=mif
 #### 1.2.1 Importer les données avec `mongoimport`
 <u>Si vous souhaiter installer MongoDB dans vos ordianateurs personnelle</u>, il faut installer MongoDB Community Edition  (*Ce qui corespond au serveur de la base de données seulement*) via un système de packages, voir la [documentation d'installation][mongodb-install]. 
 
-> ⚠️ Nous n'allons pas l'utiliser dans ce TP mais c'est bon a savoir que c'est possible de le faire (^.^)
+> ⚠️ Nous n'allons pas l'utiliser dans cet première partie du TP mais c'est bon a savoir que c'est possible de le faire (^.^)
 
 Importer ensuite les données en utilisant l'outil `mongoimport` (qu'il faut installer au préalable) via la commande suivante (à exécuter dans le répertoire où le [zip][mif04-mongodb.zip] a été extrait):
 
@@ -708,11 +708,9 @@ Répondez aux questions suivantes dans votre compte-rendu:
 [mongodb-install]: https://docs.mongodb.com/manual/installation/#mongodb-installation-tutorials
 [docker]: https://www.docker.com/get-started
 [docker-linux]: https://docs.docker.com/engine/install/#server
-[mif04-mongodb.zip]: https://perso.liris.cnrs.fr/emmanuel.coquery/enseignement/mif04/mif04-mongodb.zip
-[mongosh.msi]:https://downloads.mongodb.com/compass/mongosh-2.0.2-x64.msi
+[malia_db-mongodb.zip]: ./malia_db-mongodb.zip
 
-
-[malia_db-mongodb.zip]: https://moodle.univ-lyon2.fr/mod/resource/view.php?id=183028
+[malia_db-mongodb.zip]: ./malia_db-mongodb.zip
 
 
 
